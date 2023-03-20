@@ -1,5 +1,5 @@
 import React from 'react';
-import "./constact.css";
+import "./contact.css";
 
 const constact = () => {
   return (
