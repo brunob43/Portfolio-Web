@@ -1,7 +1,7 @@
 import React from 'react';
 import "./header.css";
 import CTA from "./CTA";
-import bb from "../../assets/bb.png"
+import BB1 from "../../assets/BB1.PNG"
 import HeaderSocials from './HeaderSocials';
 
 const header = () => {
@@ -14,8 +14,8 @@ const header = () => {
         <CTA/>
         <HeaderSocials/>
 
-        <div className='bb'>
-            <img src={bb} alt="bb" />
+        <div className='BB1'>
+            <img src={BB1} alt="BB1" />
         </div>
         <a href='#contact' className='scroll__down'>Scroll Down</a>
       </div>
