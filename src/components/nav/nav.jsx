@@ -1,10 +1,10 @@
 import React from 'react';
 import "./nav.css";
 
-const nav = () => {
+const Nav = () => {
   return (
-    <div>nav</div>
+    <div>Nav</div>
   )
 }
 
-export default nav
+export default Nav
