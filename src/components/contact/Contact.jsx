@@ -1,10 +1,10 @@
 import React from 'react';
 import "./contact.css";
 
-const constact = () => {
+const Contact = () => {
   return (
-    <div>constact</div>
+    <section id='contact'>Contact</section>
   )
 }
 
-export default constact
+export default Contact
