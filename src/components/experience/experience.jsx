@@ -50,7 +50,7 @@ const Experience = () => {
 
          </div>
         </div>        
-        
+
      {/* ------------back------------------------------- */}
 
         <div className="experience__backend">
@@ -65,6 +65,12 @@ const Experience = () => {
            <article className='experience__detail'>
              <BsFillPatchCheckFill />
              <h4>NodeJs</h4>
+             <small className='text-light'>Intermediate</small>
+           </article>
+
+           <article className='experience__detail'>
+             <BsFillPatchCheckFill />
+             <h4>Express</h4>
              <small className='text-light'>Intermediate</small>
            </article>
 
