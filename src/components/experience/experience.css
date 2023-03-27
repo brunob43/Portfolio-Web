@@ -24,3 +24,22 @@
     color: var(--color-primary);
 }
 
+.experience__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.experience__detail {
+    display: flex;
+    gap: 1rem;
+}
+
+.experience__detail-icon {
+    margin-top: 6px;
+    color: var(--color-primary);
+}
+
+
+
+

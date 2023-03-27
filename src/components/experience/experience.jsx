@@ -13,39 +13,51 @@ const Experience = () => {
          <h3>Frontend Development</h3>
          <div className="experience__content">
            <article className='experience__detail'>
-             <BsFillPatchCheckFill />
-             <h4>HTML</h4>
-             <small className='text-light'>Experienced</small>
+             <BsFillPatchCheckFill className='experience__detail-icon'/>
+               <div>
+                <h4>HTML</h4>
+                <small className='text-light'>Experienced</small>
+               </div>
            </article>
 
            <article className='experience__detail'>
-             <BsFillPatchCheckFill />
-             <h4>CSS</h4>
-             <small className='text-light'>Intermediate</small>
+             <BsFillPatchCheckFill className='experience__detail-icon'/>
+             <div>
+               <h4>CSS</h4>
+               <small className='text-light'>Intermediate</small>
+             </div>
            </article>
 
            <article className='experience__detail'>
-             <BsFillPatchCheckFill />
+             <BsFillPatchCheckFill className='experience__detail-icon'/>
+             <div>
              <h4>JavaScript</h4>
              <small className='text-light'>Experienced</small>
+             </div>
            </article>
 
            <article className='experience__detail'>
-             <BsFillPatchCheckFill />
+             <BsFillPatchCheckFill className='experience__detail-icon'/>
+             <div>
              <h4>TypeScript</h4>
              <small className='text-light'>In Progess</small>
+             </div>
            </article>
 
            <article className='experience__detail'>
-             <BsFillPatchCheckFill />
+             <BsFillPatchCheckFill className='experience__detail-icon'/>
+             <div>
              <h4>React</h4>
              <small className='text-light'>Experienced</small>
+             </div>
            </article>
 
            <article className='experience__detail'>
-             <BsFillPatchCheckFill />
+             <BsFillPatchCheckFill className='experience__detail-icon'/>
+             <div>
              <h4>Redux</h4>
              <small className='text-light'>Experienced</small>
+             </div>
            </article>
 
          </div>
@@ -57,39 +69,51 @@ const Experience = () => {
         <h3>Backend Development</h3>
          <div className="experience__content">
            <article className='experience__detail'>
-             <BsFillPatchCheckFill />
+             <BsFillPatchCheckFill className='experience__detail-icon'/>
+             <div>
              <h4>JavaScript</h4>
              <small className='text-light'>Experienced</small>
+             </div>
            </article>
 
            <article className='experience__detail'>
-             <BsFillPatchCheckFill />
+             <BsFillPatchCheckFill className='experience__detail-icon'/>
+             <div>
              <h4>NodeJs</h4>
              <small className='text-light'>Intermediate</small>
+             </div>
            </article>
 
            <article className='experience__detail'>
-             <BsFillPatchCheckFill />
+             <BsFillPatchCheckFill className='experience__detail-icon'/>
+             <div>
              <h4>Express</h4>
              <small className='text-light'>Intermediate</small>
+             </div>
            </article>
 
            <article className='experience__detail'>
-             <BsFillPatchCheckFill />
-             <h4>SQL</h4>
+             <BsFillPatchCheckFill className='experience__detail-icon'/>
+            <div>
+            <h4>SQL</h4>
              <small className='text-light'>Experienced</small>
+            </div>
            </article>
 
            <article className='experience__detail'>
-             <BsFillPatchCheckFill />
+             <BsFillPatchCheckFill className='experience__detail-icon'/>
+             <div>
              <h4>PosgressSQL</h4>
              <small className='text-light'>Intermediate</small>
+             </div>
            </article>
 
            <article className='experience__detail'>
-             <BsFillPatchCheckFill />
+             <BsFillPatchCheckFill className='experience__detail-icon'/>
+             <div>
              <h4>Sequelize</h4>
              <small className='text-light'>Intermediate</small>
+             </div>
            </article>
 
          </div>
