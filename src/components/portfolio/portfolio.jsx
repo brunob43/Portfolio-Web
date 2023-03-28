@@ -1,7 +1,7 @@
 import React from 'react';
 import "./portfolio.css";
 import IMG1 from "../../assets/IMG1.png"
-import IMG2 from "../../assets/IMG2.png"
+import IMG from "../../assets/IMG.png"
 
 const Portfolio = () => {
   return (
@@ -9,7 +9,7 @@ const Portfolio = () => {
       <h5>My Recent Works</h5>
       <h2>Portfolio</h2>
 
-      <div className="container portfolio__container"></div>
+      <div className="container portfolio__container">
     <article className='portfolio__item'>
     <div className='portfolio__item-image'>
     <img src={IMG1} alt="" />
@@ -21,13 +21,13 @@ const Portfolio = () => {
 
     <article className='portfolio__item'>
     <div className='portfolio__item-image'>
-    <img src={IMG2} alt="" />
+    <img src={IMG} alt="" />
     </div>
     <h3>This is a portfolio item title</h3>
     <a href="https://github.com" className='btn' target="_blank">Github</a>
     <a href="https://youtube.com" className='btn btn-primary' target="_blank">Live Demo</a>
     </article>
-
+    </div>
     </section>
   )
 }
