@@ -30,17 +30,17 @@ const About = () => {
         <article className='about__card'>
           <FiUsers className='about__icon'/>
           <h5>Clients</h5>
-          <small>3 Real Clients </small>
+          <small>2 Real Clients </small>
         </article>
 
         <article className='about__card'>
           <VscFolderLibrary className='about__icon'/>
           <h5>Projects</h5>
-          <small>3 Projects Completed</small>
+          <small>2 Projects Completed</small>
         </article>
       </div>
       <p>
-        Soy Bruno Buglioni FullStack Developer .................. tecnologias que ulitizo son ....... 
+      Soy Full Stack Web Developer, con experiencia realizando proyectos Full Stack desarrollados en el stack PERN con React, Redux, PostgreSQL, Express, Node js, HTML, CSS, Express, JavaScript y Sequelize. 
       </p>
       <a href="#contact" className='btn btn-primary'>Let's Talk</a>
     </div>

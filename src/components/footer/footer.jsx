@@ -18,8 +18,8 @@ const Footer = () => {
       </ul>
 
       <div className='footer__socials'>
-        <a href="https://linkedin.com"><BsLinkedin/></a>
-        <a href="https://github.com"><BsGithub/></a>
+        <a href="https://www.linkedin.com/in/brunobuglioni/"><BsLinkedin/></a>
+        <a href="https://github.com/brunob43"><BsGithub/></a>
       </div>
       <div className='footer__copyright'>
         <small>&copy; BRUNoX DEV. All rights reserved.</small>

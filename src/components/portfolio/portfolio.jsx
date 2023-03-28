@@ -8,14 +8,14 @@ const data = [
   id: 1,
   image: IMG1,
   title: "Henry Game On",
-  github: "https://github.com",
-  demo: "https://youtube.com"
+  github: "https://github.com/brunob43?tab=repositories",
+  demo: "https://www.youtube.com/watch?app=desktop&v=q5B-WcHeS04&feature=youtu.be"
  },
  {
   id: 2,
   image: IMG,
   title: "Earth App",
-  github: "https://github.com",
+  github: "https://github.com/brunob43?tab=repositories",
   demo: "https://youtube.com"
  }
 ]
