@@ -4,7 +4,7 @@ import CTA from "./CTA";
 import BB1 from "../../assets/BB1.PNG"
 import HeaderSocials from './HeaderSocials';
 
-const header = () => {
+const Header = () => {
   return (
     <header>
       <div className="conteiner header__container">
@@ -22,4 +22,5 @@ const header = () => {
     </header>  )
 }
 
-export default header
+export default Header
+//----------------------------//
