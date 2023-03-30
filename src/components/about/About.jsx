@@ -40,7 +40,7 @@ const About = () => {
         </article>
       </div>
       <p>
-      Soy Full Stack Web Developer, con experiencia realizando proyectos Full Stack desarrollados en el stack PERN con React, Redux, PostgreSQL, Express, Node js, HTML, CSS, Express, JavaScript y Sequelize. 
+      I am passionate about learning, especially what involves logic challenges and teamwork. For this reason, I decided to join the Web Development world and my background is as a Full Stack Dev with experience doing Full-Stack projects developed in the PERN stack with React.JS, Redux, PostgreSQL, Node.JS, HTML, CSS, Material UI, Express, JavaScript and Sequelize. In addition, I have experience working with agile methodologies, SCRUM and JIRA. Currently, i continue to educate myself with new technologies in both areas in order to further develop my skills and increase my knowledge.
       </p>
       <a href="#contact" className='btn btn-primary'>Let's Talk</a>
     </div>
