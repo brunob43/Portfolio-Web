@@ -18,8 +18,8 @@ const data = [
   image: IMG,
   title: "Earth App",
   topic: "Individual project for Henry, with the theme of Countries; I focused on developing a simple, fast and solid backend code that would allow the frontend to offer a wide variety of options to navigate through all the countries of the world.",
-  github: "https://github.com/brunob43?tab=repositories",
-  demo: "https://youtube.com",
+  github: "https://github.com/brunob43/Pi-Countries",
+  demo: "https://pi-countries-delta.vercel.app/",
   tech: "Tech: JS, Css, React, Redux, Express, Sequelize - PostgresSQL."
  }
 ]
