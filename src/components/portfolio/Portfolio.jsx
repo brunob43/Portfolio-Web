@@ -8,15 +8,19 @@ const data = [
   id: 1,
   image: IMG1,
   title: "Henry Game On",
+  topic: "Agile and Scrum methodologies were used to approach a project that consists of a videogames website made by us, where students can learn code by playing and interacting to develop both technical skills and soft skills. It also has a Docs section where students can consult with available documentation and generate their own Docs to share with the community. AI technology (ChatGPT) was used, the presence of a chatbot throughout the site allows students to ask questions at any time about any topic they need.",
   github: "https://github.com/brunob43?tab=repositories",
-  demo: "https://www.youtube.com/watch?app=desktop&v=q5B-WcHeS04&feature=youtu.be"
+  demo: "https://www.youtube.com/watch?app=desktop&v=q5B-WcHeS04&feature=youtu.be",
+  tech: "Tech: JS, Css, React, Redux, Express, Sequelize - PostgresSQL, Jira, Chakra."
  },
  {
   id: 2,
   image: IMG,
   title: "Earth App",
+  topic: "Individual project for Henry, with the theme of Countries; I focused on developing a simple, fast and solid backend code that would allow the frontend to offer a wide variety of options to navigate through all the countries of the world.",
   github: "https://github.com/brunob43?tab=repositories",
-  demo: "https://youtube.com"
+  demo: "https://youtube.com",
+  tech: "Tech: JS, Css, React, Redux, Express, Sequelize - PostgresSQL."
  }
 ]
 
@@ -28,7 +32,7 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
       {
-        data.map(({id, image, title, github, demo}) => {
+        data.map(({id, image, title, github, demo, topic, tech}) => {
         return (
           <article key={id} className='portfolio__item'>
            <div className='portfolio__item-image'>
@@ -39,6 +43,8 @@ const Portfolio = () => {
               <a href={github} className='btn'>Github</a>
               <a href={demo} className='btn btn-primary'>Live Demo</a>
           </div>
+              <p>{topic}</p>
+              <h5>{tech}</h5>
          </article>
       )
     })
