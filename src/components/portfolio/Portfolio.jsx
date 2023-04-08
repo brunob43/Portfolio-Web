@@ -2,6 +2,7 @@ import React from 'react';
 import "./portfolio.css";
 import IMG1 from "../../assets/IMG1.png"
 import IMG from "../../assets/IMG.png"
+import DB from "../../assets/DB.png"
 
 const data = [
  {
@@ -21,7 +22,17 @@ const data = [
   github: "https://github.com/brunob43/Pi-Countries",
   demo: "https://pi-countries-delta.vercel.app/",
   tech: "Tech: JS, Css, React, Redux, Express, Sequelize - PostgresSQL."
+ },
+ {
+  id: 3,
+  image: DB,
+  title: "DB Pasteleria",
+  topic: "E-Commerce(In progess)",
+  github: "",
+  demo: "",
+  tech: "Tech: TypeScript, Css, React, Next.js."
  }
+
 ]
 
 const Portfolio = () => {
