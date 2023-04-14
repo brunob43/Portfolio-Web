@@ -30,7 +30,7 @@ const About = () => {
         <article className='about__card'>
           <FiUsers className='about__icon'/>
           <h5>Clients</h5>
-          <small>2 Real Clients </small>
+          <small>3 Real Clients </small>
         </article>
 
         <article className='about__card'>
